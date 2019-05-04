@@ -1,0 +1,32 @@
+{
+  "name": "kindergarten-director",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "stage": "vue-cli-service serve --mode stage",
+    "analy": "set use_analyzer=true&&yarn build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "better-scroll": "^1.15.2",
+    "core-js": "^2.6.5",
+    "fastclick": "^1.0.6",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.11.2",
+    "vue-lazyload": "^1.2.6",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "analyzer": "^1.2.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
